@@ -5,7 +5,7 @@ import { reverseWords } from "./reverseWords";
 const textToRevirse =
   "Hi Radivision  I am Sorry for being                   late..";
 
-exprt default props => (
+export default props => (
   <div className="App">
     {[1, 2, 3].map((url, i) => (
       <SButton
